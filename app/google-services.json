@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "835272581616",
+    "firebase_url": "https://ulcerpatientapp-dded3-default-rtdb.firebaseio.com",
+    "project_id": "ulcerpatientapp-dded3",
+    "storage_bucket": "ulcerpatientapp-dded3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835272581616:android:1fb3c5e550a021356a7d35",
+        "android_client_info": {
+          "package_name": "com.example.ulcerpatientapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwwFu9tB2a4pq2FYrIj2eOYAw1ukmREVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

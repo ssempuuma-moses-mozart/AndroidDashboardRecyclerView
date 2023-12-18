@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back24"
+    tools:context=".drugdetails">
+
+    <ImageView
+        android:id="@+id/image_view1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/drug1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="128dp"
+        android:layout_height="21dp"
+        android:gravity="center"
+        android:text="Ulrif Suspension"
+        android:textAllCaps="true"
+        android:textColor="@color/green_500"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view1"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <ImageView
+        android:id="@+id/image_view2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/drug2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="128dp"
+        android:layout_height="21dp"
+        android:gravity="center"
+        android:text="Relcer Gel"
+        android:textAllCaps="true"
+        android:textColor="@color/green_500"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view1"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <ImageView
+        android:id="@+id/image_view3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="258dp"
+        android:src="@drawable/drug3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="129dp"
+        android:layout_height="21dp"
+        android:gravity="center"
+        android:text="Alumina Mg"
+        android:textAllCaps="true"
+        android:textColor="@color/green_500"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view1"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <ImageView
+        android:id="@+id/image_view4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="426dp"
+        android:src="@drawable/drug5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="128dp"
+        android:layout_height="21dp"
+        android:gravity="center"
+        android:text="ABICID Syrup"
+        android:textAllCaps="true"
+        android:textColor="@color/green_500"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view1"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <ImageView
+        android:id="@+id/image_view31"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="258dp"
+        android:src="@drawable/drug4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="128dp"
+        android:layout_height="21dp"
+        android:gravity="center"
+        android:text="Pepcer Syrup"
+        android:textAllCaps="true"
+        android:textColor="@color/green_500"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view1"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <ImageView
+        android:id="@+id/image_view41"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="426dp"
+        android:src="@drawable/drug6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="128dp"
+        android:layout_height="21dp"
+        android:gravity="center"
+        android:text="GIT Syrup"
+        android:textAllCaps="true"
+        android:textColor="@color/green_500"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view1"
+        app:layout_constraintVertical_bias="0.72" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

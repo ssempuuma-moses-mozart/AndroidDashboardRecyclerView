@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:id="@+id/idTVHeading"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="400dp"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"/>
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/idTVHeading"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="95dp"
+        android:ems="15"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editTextTextEmailAddress"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="95dp"
+        android:ems="15"
+        android:hint="password"
+        android:inputType="numberPassword"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextTextPassword2"
+        android:text="login"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="471dp"
+        android:textSize="20sp"
+        app:cornerRadius="28dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/startButton"
+        android:text="Sign Up "
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="471dp"
+        android:textSize="20sp"
+        app:cornerRadius="28dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

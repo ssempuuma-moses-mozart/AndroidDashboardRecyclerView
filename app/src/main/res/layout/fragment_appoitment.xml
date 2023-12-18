@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/home_search_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/purple"
+        android:textColorHint="@color/black" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/AppointmentRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:elevation="0dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:layout_gravity="center"
+            android:indeterminate="true"/>
+    </LinearLayout>
+
+
+</LinearLayout>
